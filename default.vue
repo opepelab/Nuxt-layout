@@ -8,7 +8,7 @@
 		<Footer />
 	</div>
 </template>
-// 共通コンポーネントのハブ
+// すべての共通して使うコンポーネントはこのファイルを介して作動する starting components this file.
 <script>
 	import PictureHigh from "/components/PictureHigh";
 	import Navbar from "/components/Navbar"; // headerをインポート
