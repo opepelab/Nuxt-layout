@@ -8,7 +8,7 @@
 		<Footer />
 	</div>
 </template>
-//共通コンポーネントのハブ
+// 共通コンポーネントのハブ
 <script>
 	import PictureHigh from "/components/PictureHigh";
 	import Navbar from "/components/Navbar"; // headerをインポート
