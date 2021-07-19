@@ -1,22 +1,22 @@
 <template>
 	<div class="resp">
-        <PictureHigh />
+        	<PictureHigh />
 		<Navbar />
 		<main>
-			<nuxt />
+		<nuxt />
 		</main>
 		<Footer />
 	</div>
 </template>
-
+//共通コンポーネントのハブ
 <script>
-    import PictureHigh from "/components/PictureHigh";
+	import PictureHigh from "/components/PictureHigh";
 	import Navbar from "/components/Navbar"; // headerをインポート
 	import Footer from "/components/Footer"; // footerをインポート
 
 	export default {
 		components: {
-            PictureHigh,
+            		PictureHigh,
 			Navbar,
 			Footer,
 		}
